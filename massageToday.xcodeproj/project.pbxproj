@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0F5C0317B6D61B002DDF24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F5C0217B6D61B002DDF24 /* UIKit.framework */; };
+		3F0F5C0517B6D61B002DDF24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F5C0417B6D61B002DDF24 /* Foundation.framework */; };
+		3F0F5C0717B6D61B002DDF24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F5C0617B6D61B002DDF24 /* CoreGraphics.framework */; };
+		3F0F5C0D17B6D61B002DDF24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5C0B17B6D61B002DDF24 /* InfoPlist.strings */; };
+		3F0F5C0F17B6D61B002DDF24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C0E17B6D61B002DDF24 /* main.m */; };
+		3F0F5C1317B6D61B002DDF24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C1217B6D61B002DDF24 /* AppDelegate.m */; };
+		3F0F5C1517B6D61B002DDF24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5C1417B6D61B002DDF24 /* Default.png */; };
+		3F0F5C1717B6D61B002DDF24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5C1617B6D61B002DDF24 /* Default@2x.png */; };
+		3F0F5C1917B6D61B002DDF24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5C1817B6D61B002DDF24 /* Default-568h@2x.png */; };
+		3F0F5C1C17B6D61B002DDF24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5C1A17B6D61B002DDF24 /* MainStoryboard.storyboard */; };
+		3F0F5C1F17B6D61B002DDF24 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C1E17B6D61B002DDF24 /* MasterViewController.m */; };
+		3F0F5C2217B6D61B002DDF24 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C2117B6D61B002DDF24 /* DetailViewController.m */; };
+		3F0F5C2A17B6D61B002DDF24 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F5C2917B6D61B002DDF24 /* SenTestingKit.framework */; };
+		3F0F5C2B17B6D61B002DDF24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F5C0217B6D61B002DDF24 /* UIKit.framework */; };
+		3F0F5C2C17B6D61B002DDF24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F5C0417B6D61B002DDF24 /* Foundation.framework */; };
+		3F0F5C3417B6D61B002DDF24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5C3217B6D61B002DDF24 /* InfoPlist.strings */; };
+		3F0F5C3717B6D61B002DDF24 /* massageTodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C3617B6D61B002DDF24 /* massageTodayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0F5C2D17B6D61B002DDF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F5BF717B6D61B002DDF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0F5BFE17B6D61B002DDF24;
+			remoteInfo = massageToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0F5BFF17B6D61B002DDF24 /* massageToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = massageToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F5C0217B6D61B002DDF24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F0F5C0417B6D61B002DDF24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F0F5C0617B6D61B002DDF24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F0F5C0A17B6D61B002DDF24 /* massageToday-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "massageToday-Info.plist"; sourceTree = "<group>"; };
+		3F0F5C0C17B6D61B002DDF24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F0F5C0E17B6D61B002DDF24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0F5C1017B6D61B002DDF24 /* massageToday-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "massageToday-Prefix.pch"; sourceTree = "<group>"; };
+		3F0F5C1117B6D61B002DDF24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0F5C1217B6D61B002DDF24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0F5C1417B6D61B002DDF24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F0F5C1617B6D61B002DDF24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F0F5C1817B6D61B002DDF24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F0F5C1B17B6D61B002DDF24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3F0F5C1D17B6D61B002DDF24 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3F0F5C1E17B6D61B002DDF24 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3F0F5C2017B6D61B002DDF24 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F0F5C2117B6D61B002DDF24 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3F0F5C2817B6D61B002DDF24 /* massageTodayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = massageTodayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F5C2917B6D61B002DDF24 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F0F5C3117B6D61B002DDF24 /* massageTodayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "massageTodayTests-Info.plist"; sourceTree = "<group>"; };
+		3F0F5C3317B6D61B002DDF24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F0F5C3517B6D61B002DDF24 /* massageTodayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = massageTodayTests.h; sourceTree = "<group>"; };
+		3F0F5C3617B6D61B002DDF24 /* massageTodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = massageTodayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0F5BFC17B6D61B002DDF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F5C0317B6D61B002DDF24 /* UIKit.framework in Frameworks */,
+				3F0F5C0517B6D61B002DDF24 /* Foundation.framework in Frameworks */,
+				3F0F5C0717B6D61B002DDF24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F5C2417B6D61B002DDF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F5C2A17B6D61B002DDF24 /* SenTestingKit.framework in Frameworks */,
+				3F0F5C2B17B6D61B002DDF24 /* UIKit.framework in Frameworks */,
+				3F0F5C2C17B6D61B002DDF24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0F5BF617B6D61B002DDF24 = {
+			isa = PBXGroup;
+			children = (
+				3F0F5C0817B6D61B002DDF24 /* massageToday */,
+				3F0F5C2F17B6D61B002DDF24 /* massageTodayTests */,
+				3F0F5C0117B6D61B002DDF24 /* Frameworks */,
+				3F0F5C0017B6D61B002DDF24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0F5C0017B6D61B002DDF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F5BFF17B6D61B002DDF24 /* massageToday.app */,
+				3F0F5C2817B6D61B002DDF24 /* massageTodayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0F5C0117B6D61B002DDF24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F5C0217B6D61B002DDF24 /* UIKit.framework */,
+				3F0F5C0417B6D61B002DDF24 /* Foundation.framework */,
+				3F0F5C0617B6D61B002DDF24 /* CoreGraphics.framework */,
+				3F0F5C2917B6D61B002DDF24 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F0F5C0817B6D61B002DDF24 /* massageToday */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F5C1117B6D61B002DDF24 /* AppDelegate.h */,
+				3F0F5C1217B6D61B002DDF24 /* AppDelegate.m */,
+				3F0F5C1A17B6D61B002DDF24 /* MainStoryboard.storyboard */,
+				3F0F5C1D17B6D61B002DDF24 /* MasterViewController.h */,
+				3F0F5C1E17B6D61B002DDF24 /* MasterViewController.m */,
+				3F0F5C2017B6D61B002DDF24 /* DetailViewController.h */,
+				3F0F5C2117B6D61B002DDF24 /* DetailViewController.m */,
+				3F0F5C0917B6D61B002DDF24 /* Supporting Files */,
+			);
+			path = massageToday;
+			sourceTree = "<group>";
+		};
+		3F0F5C0917B6D61B002DDF24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F5C0A17B6D61B002DDF24 /* massageToday-Info.plist */,
+				3F0F5C0B17B6D61B002DDF24 /* InfoPlist.strings */,
+				3F0F5C0E17B6D61B002DDF24 /* main.m */,
+				3F0F5C1017B6D61B002DDF24 /* massageToday-Prefix.pch */,
+				3F0F5C1417B6D61B002DDF24 /* Default.png */,
+				3F0F5C1617B6D61B002DDF24 /* Default@2x.png */,
+				3F0F5C1817B6D61B002DDF24 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F0F5C2F17B6D61B002DDF24 /* massageTodayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F5C3517B6D61B002DDF24 /* massageTodayTests.h */,
+				3F0F5C3617B6D61B002DDF24 /* massageTodayTests.m */,
+				3F0F5C3017B6D61B002DDF24 /* Supporting Files */,
+			);
+			path = massageTodayTests;
+			sourceTree = "<group>";
+		};
+		3F0F5C3017B6D61B002DDF24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F5C3117B6D61B002DDF24 /* massageTodayTests-Info.plist */,
+				3F0F5C3217B6D61B002DDF24 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0F5BFE17B6D61B002DDF24 /* massageToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0F5C3A17B6D61B002DDF24 /* Build configuration list for PBXNativeTarget "massageToday" */;
+			buildPhases = (
+				3F0F5BFB17B6D61B002DDF24 /* Sources */,
+				3F0F5BFC17B6D61B002DDF24 /* Frameworks */,
+				3F0F5BFD17B6D61B002DDF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = massageToday;
+			productName = massageToday;
+			productReference = 3F0F5BFF17B6D61B002DDF24 /* massageToday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0F5C2717B6D61B002DDF24 /* massageTodayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0F5C3D17B6D61B002DDF24 /* Build configuration list for PBXNativeTarget "massageTodayTests" */;
+			buildPhases = (
+				3F0F5C2317B6D61B002DDF24 /* Sources */,
+				3F0F5C2417B6D61B002DDF24 /* Frameworks */,
+				3F0F5C2517B6D61B002DDF24 /* Resources */,
+				3F0F5C2617B6D61B002DDF24 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0F5C2E17B6D61B002DDF24 /* PBXTargetDependency */,
+			);
+			name = massageTodayTests;
+			productName = massageTodayTests;
+			productReference = 3F0F5C2817B6D61B002DDF24 /* massageTodayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0F5BF717B6D61B002DDF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Krishna Kunapuli";
+			};
+			buildConfigurationList = 3F0F5BFA17B6D61B002DDF24 /* Build configuration list for PBXProject "massageToday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F0F5BF617B6D61B002DDF24;
+			productRefGroup = 3F0F5C0017B6D61B002DDF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0F5BFE17B6D61B002DDF24 /* massageToday */,
+				3F0F5C2717B6D61B002DDF24 /* massageTodayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0F5BFD17B6D61B002DDF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F5C0D17B6D61B002DDF24 /* InfoPlist.strings in Resources */,
+				3F0F5C1517B6D61B002DDF24 /* Default.png in Resources */,
+				3F0F5C1717B6D61B002DDF24 /* Default@2x.png in Resources */,
+				3F0F5C1917B6D61B002DDF24 /* Default-568h@2x.png in Resources */,
+				3F0F5C1C17B6D61B002DDF24 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F5C2517B6D61B002DDF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F5C3417B6D61B002DDF24 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F0F5C2617B6D61B002DDF24 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0F5BFB17B6D61B002DDF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F5C0F17B6D61B002DDF24 /* main.m in Sources */,
+				3F0F5C1317B6D61B002DDF24 /* AppDelegate.m in Sources */,
+				3F0F5C1F17B6D61B002DDF24 /* MasterViewController.m in Sources */,
+				3F0F5C2217B6D61B002DDF24 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F5C2317B6D61B002DDF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F5C3717B6D61B002DDF24 /* massageTodayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0F5C2E17B6D61B002DDF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0F5BFE17B6D61B002DDF24 /* massageToday */;
+			targetProxy = 3F0F5C2D17B6D61B002DDF24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0F5C0B17B6D61B002DDF24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F5C0C17B6D61B002DDF24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F0F5C1A17B6D61B002DDF24 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F5C1B17B6D61B002DDF24 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0F5C3217B6D61B002DDF24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F5C3317B6D61B002DDF24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0F5C3817B6D61B002DDF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F0F5C3917B6D61B002DDF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0F5C3B17B6D61B002DDF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massageToday/massageToday-Prefix.pch";
+				INFOPLIST_FILE = "massageToday/massageToday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F0F5C3C17B6D61B002DDF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massageToday/massageToday-Prefix.pch";
+				INFOPLIST_FILE = "massageToday/massageToday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F0F5C3E17B6D61B002DDF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/massageToday.app/massageToday";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massageToday/massageToday-Prefix.pch";
+				INFOPLIST_FILE = "massageTodayTests/massageTodayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F0F5C3F17B6D61B002DDF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/massageToday.app/massageToday";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massageToday/massageToday-Prefix.pch";
+				INFOPLIST_FILE = "massageTodayTests/massageTodayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0F5BFA17B6D61B002DDF24 /* Build configuration list for PBXProject "massageToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F5C3817B6D61B002DDF24 /* Debug */,
+				3F0F5C3917B6D61B002DDF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0F5C3A17B6D61B002DDF24 /* Build configuration list for PBXNativeTarget "massageToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F5C3B17B6D61B002DDF24 /* Debug */,
+				3F0F5C3C17B6D61B002DDF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0F5C3D17B6D61B002DDF24 /* Build configuration list for PBXNativeTarget "massageTodayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F5C3E17B6D61B002DDF24 /* Debug */,
+				3F0F5C3F17B6D61B002DDF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0F5BF717B6D61B002DDF24 /* Project object */;
+}
