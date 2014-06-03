@@ -8,10 +8,16 @@ Start MongoDB
 
 git clone <>
 
-cd <>/massage-schedule-services
+cd <>/iphone-book-a-massage
 
-play run
+install and setup cocoapods from cocoapods.org
 
-open a browser and http://localhost:9000
+pod init
+
+pod install
+
+open -a Xcode Podfile
+
+Run the project from xcode to see the app in the simulator
 
 Please contribute more to make a difference to all massage therapists
