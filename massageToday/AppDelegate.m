@@ -7,12 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "JSONKit.h"
+#import "MasterViewController.h"
+#import "DataController.h"
+
+@interface AppDelegate ()
+@property (nonatomic, strong) MasterViewController *masterViewController;
+@property (nonatomic, strong) DataController *dataController;
+@end
 
 @implementation AppDelegate
+@synthesize window=_window, masterViewController=_masterViewController, dataController=_dataController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Create the data controller and pass it to the root view controller.
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    DataController *controller = [[DataController alloc] init];
+    [controller searchUsers];
+    MasterViewController *masterViewController = (MasterViewController *)[[navigationController viewControllers]objectAtIndex:0];
+    masterViewController.dataController = controller;
+    self.dataController = controller;
     return YES;
 }
 							

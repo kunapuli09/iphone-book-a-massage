@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DataController;
 
 @interface MasterViewController : UITableViewController
+
+@property (nonatomic, strong) DataController *dataController;
 
 @end

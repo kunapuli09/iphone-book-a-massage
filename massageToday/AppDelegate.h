@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DataController;
+@class MasterViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

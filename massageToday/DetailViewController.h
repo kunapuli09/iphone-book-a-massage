@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Profile;
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UITableViewController 
 
-@property (strong, nonatomic) id detailItem;
+@property (nonatomic, strong) Profile *profile;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

@@ -24,6 +24,9 @@
 		3F0F5C2C17B6D61B002DDF24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F5C0417B6D61B002DDF24 /* Foundation.framework */; };
 		3F0F5C3417B6D61B002DDF24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5C3217B6D61B002DDF24 /* InfoPlist.strings */; };
 		3F0F5C3717B6D61B002DDF24 /* massageTodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C3617B6D61B002DDF24 /* massageTodayTests.m */; };
+		3F0F5C4217B6D785002DDF24 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C4117B6D785002DDF24 /* Profile.m */; };
+		3F0F5C4517B6D835002DDF24 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5C4417B6D835002DDF24 /* DataController.m */; };
+		9E5216CD0A7E4C85A9B9C443 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6583B858BDD405792840D6F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,12 @@
 		3F0F5C3317B6D61B002DDF24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F0F5C3517B6D61B002DDF24 /* massageTodayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = massageTodayTests.h; sourceTree = "<group>"; };
 		3F0F5C3617B6D61B002DDF24 /* massageTodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = massageTodayTests.m; sourceTree = "<group>"; };
+		3F0F5C4017B6D785002DDF24 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		3F0F5C4117B6D785002DDF24 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		3F0F5C4317B6D835002DDF24 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		3F0F5C4417B6D835002DDF24 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		613855B588864331945DD17E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B6583B858BDD405792840D6F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,7 @@
 				3F0F5C0317B6D61B002DDF24 /* UIKit.framework in Frameworks */,
 				3F0F5C0517B6D61B002DDF24 /* Foundation.framework in Frameworks */,
 				3F0F5C0717B6D61B002DDF24 /* CoreGraphics.framework in Frameworks */,
+				9E5216CD0A7E4C85A9B9C443 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +104,7 @@
 				3F0F5C2F17B6D61B002DDF24 /* massageTodayTests */,
 				3F0F5C0117B6D61B002DDF24 /* Frameworks */,
 				3F0F5C0017B6D61B002DDF24 /* Products */,
+				613855B588864331945DD17E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +124,7 @@
 				3F0F5C0417B6D61B002DDF24 /* Foundation.framework */,
 				3F0F5C0617B6D61B002DDF24 /* CoreGraphics.framework */,
 				3F0F5C2917B6D61B002DDF24 /* SenTestingKit.framework */,
+				B6583B858BDD405792840D6F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +140,10 @@
 				3F0F5C2017B6D61B002DDF24 /* DetailViewController.h */,
 				3F0F5C2117B6D61B002DDF24 /* DetailViewController.m */,
 				3F0F5C0917B6D61B002DDF24 /* Supporting Files */,
+				3F0F5C4017B6D785002DDF24 /* Profile.h */,
+				3F0F5C4117B6D785002DDF24 /* Profile.m */,
+				3F0F5C4317B6D835002DDF24 /* DataController.h */,
+				3F0F5C4417B6D835002DDF24 /* DataController.m */,
 			);
 			path = massageToday;
 			sourceTree = "<group>";
@@ -172,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F0F5C3A17B6D61B002DDF24 /* Build configuration list for PBXNativeTarget "massageToday" */;
 			buildPhases = (
+				087AA23BE57E4981A8F3E6F0 /* Check Pods Manifest.lock */,
 				3F0F5BFB17B6D61B002DDF24 /* Sources */,
 				3F0F5BFC17B6D61B002DDF24 /* Frameworks */,
 				3F0F5BFD17B6D61B002DDF24 /* Resources */,
+				069A5BBFF19945D6B411A407 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +273,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		069A5BBFF19945D6B411A407 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		087AA23BE57E4981A8F3E6F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		3F0F5C2617B6D61B002DDF24 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +327,8 @@
 				3F0F5C1317B6D61B002DDF24 /* AppDelegate.m in Sources */,
 				3F0F5C1F17B6D61B002DDF24 /* MasterViewController.m in Sources */,
 				3F0F5C2217B6D61B002DDF24 /* DetailViewController.m in Sources */,
+				3F0F5C4217B6D785002DDF24 /* Profile.m in Sources */,
+				3F0F5C4517B6D835002DDF24 /* DataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +436,7 @@
 		};
 		3F0F5C3B17B6D61B002DDF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613855B588864331945DD17E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "massageToday/massageToday-Prefix.pch";
@@ -397,6 +448,7 @@
 		};
 		3F0F5C3C17B6D61B002DDF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613855B588864331945DD17E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "massageToday/massageToday-Prefix.pch";
@@ -459,6 +511,7 @@
 				3F0F5C3C17B6D61B002DDF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0F5C3D17B6D61B002DDF24 /* Build configuration list for PBXNativeTarget "massageTodayTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +520,7 @@
 				3F0F5C3F17B6D61B002DDF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,7 @@
+platform :ios, '6.0'
+pod 'SDWebImage'
+pod 'JSONKit'
+pod 'Reachability'
+pod 'AFNetworking', '~> 1.3'
+pod 'Facebook-iOS-SDK'
+pod 'SSKeychain'
